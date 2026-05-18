@@ -1,0 +1,184 @@
+/* ExponentOS Portfolio Template */
+/* Students: customize the colors, fonts, and layout to make it yours! */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    color: #2d2d2d;
+    background-color: #fafafa;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+header .highlight {
+    color: #ffeaa7;
+}
+
+header .tagline {
+    font-size: 1.2em;
+    opacity: 0.9;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+}
+
+section h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #6c5ce7;
+    border-bottom: 3px solid #a29bfe;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+#about p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Project Cards */
+.project-card {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    border-left: 4px solid #6c5ce7;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+}
+
+.project-card h3 {
+    font-size: 1.4em;
+    color: #2d2d2d;
+    margin-bottom: 5px;
+}
+
+.project-phase {
+    color: #a29bfe;
+    font-weight: 600;
+    font-size: 0.9em;
+    margin-bottom: 12px;
+}
+
+.project-card p {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 20px;
+    background: #6c5ce7;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+.project-link:hover {
+    background: #5a4bd1;
+}
+
+/* Badges */
+.badges-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.badge {
+    background: white;
+    border: 2px solid #a29bfe;
+    border-radius: 20px;
+    padding: 8px 18px;
+    font-size: 0.95em;
+    font-weight: 600;
+    color: #6c5ce7;
+}
+
+/* Journey */
+#journey {
+    background: #f0edff;
+    border-radius: 12px;
+    margin: 20px auto;
+    max-width: 840px;
+}
+
+#journey p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background: #2d2d2d;
+    color: #aaa;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+}
+
+footer strong {
+    color: #a29bfe;
+}
+
+footer a {
+    color: #a29bfe;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    header .tagline {
+        font-size: 1em;
+    }
+
+    .project-card {
+        padding: 20px;
+    }
+
+    section {
+        padding: 30px 15px;
+    }
+}
